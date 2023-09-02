@@ -6,7 +6,7 @@
 using namespace std;
 /*This(serializable) is a abstract class and any class derived from this class 
 must implement to_string() function*/
-class serializable
+class Serializable
 {
     public:
     /*to_string() is a pure virtual function and serializable class don't know what 
