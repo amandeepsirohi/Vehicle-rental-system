@@ -24,7 +24,7 @@ derived from serializable i.e. if anything is storable must be serializable.
     public:
         /*constructor function , i/p is recordId*/
         Storable(long recordId) {this->recordId = recordId;}
-        long getrecId() const{return this->recordId;}
+        long getRecordId() const{return this->recordId;}
         /*Pure Virtual function.
         Every Subclass of this class must provide a suitable way to set 
         this object from Storable *s*/
