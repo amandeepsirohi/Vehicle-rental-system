@@ -14,7 +14,7 @@ using namespace std;
 Anything which is Storable must have a recordId(unique Key).
 derived from serializable i.e. if anything is storable must be serializable.
 (must have to_string() method)*/
- class Storable : public serializable
+ class Storable : public Serializable
  {
     protected:
         //unique recordId , acts as primary key to find data
