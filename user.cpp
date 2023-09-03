@@ -33,7 +33,7 @@ void User :: display() const {
     cout << "Email : " << this->contact << endl;
 }
 
-string User :: to_String() const {
+string User :: toString() const {
     stringstream ss;
     ss << recordId << DELIMITER 
         << name << DELIMITER 
