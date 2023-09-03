@@ -65,7 +65,7 @@ class Vehicle : public Storable
         void display() const;
 
         /*overriden virtual method*/
-        string to_String() const;
+        string toString() const;
 
         void setDataFrom(Storable *s);
 
