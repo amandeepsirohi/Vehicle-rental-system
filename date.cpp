@@ -42,7 +42,7 @@ Date :: Date(string date /*must be in d/m/yyyy*/)
 bool Date :: is_Empty() const{
     return this->empty;
 }
-string Date :: to_String() const
+string Date :: toString() const
 {
     if(this->empty)
     {
