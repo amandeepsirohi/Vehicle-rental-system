@@ -37,6 +37,6 @@ typedef struct Date
 
         bool is_Empty() const;
 
-        string to_String() const;
+        string toString() const;
 } Date;
 #endif
