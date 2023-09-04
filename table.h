@@ -20,7 +20,7 @@ template<class T> class Table
         string fileName;
 
         /*files stream used for read and write data from database file*/
-        fstream filesStream;
+        fstream fileStream;
 
         /*Original data is stored here*/
         /*'vector' is a container type and behaves like dynamic array*/
