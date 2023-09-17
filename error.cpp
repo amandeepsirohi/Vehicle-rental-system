@@ -1,6 +1,6 @@
 #ifndef error_cpp 
 #define error_cpp 
-/*Including standard cpp headers*/
+/*Including standard cpp h   eaders*/
 #include<string>
 using namespace std;
 
